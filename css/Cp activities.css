@@ -1,0 +1,83 @@
+body{
+    background:linear-gradient(to right,teal 50%, blue 70% );
+    color: #fff;
+    padding: 10px;
+}
+
+#table {
+    width: 100%;
+    text-align: center;
+    font-family:comic sans ms ;
+    position: absolute;
+    margin:auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+}
+.div1{
+    background-color: #ffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 2px; color: teal;
+    transition: 0.5s;   
+}
+
+.div1:hover{
+    transform:scale(0.9);
+    box-shadow: 0px 0px 5px 7px; color: teal;
+}
+
+#lessonspt2 {
+    width: 100%;
+    text-align: center;
+    font-family:comic sans ms ;
+    position: absolute;
+    position: bottom;
+    margin:auto;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+}
+.div2{
+    background-color: #ffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 2px; color: teal;
+    transition: 0.5s;   
+}
+
+.div2:hover{
+    transform:scale(0.9);
+    box-shadow: 0px 0px 5px 7px; color: teal;
+}
+
+
+.btn {
+padding: 5px 15px 5px 15px;
+border-radius: 20px 4px 20px 4px;
+border: none;
+color: white;
+}
+.btn1{
+background-color:#2f5597;
+}
+.btn2{
+background-color: teal;
+}
+.btn3{
+background-color: red;
+}
+
+.home{
+    position: absolute;
+    padding-top: 0px ;
+    padding-left: 1100px;
+    transition: 0.5s;   
+}
+.home:hover{
+  transform:scale(0.9);
+}

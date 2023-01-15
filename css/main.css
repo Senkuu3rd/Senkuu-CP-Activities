@@ -1,0 +1,67 @@
+body{
+    background:linear-gradient(to bottom,#fff 50%, teal 90% );
+    color: #fff;
+    padding: 10px;
+}
+#logo {
+    text-align: top left;
+    text-align: left; 
+    width: 100%;
+    font-family: comic sans ms;
+    position: relative;
+    margin: auto;
+    top:0 ;
+    bottom:0 ;
+    left:0 ;
+    right: 0;
+    padding: 10px;
+}
+#table {
+    width: 100%;
+    text-align: center;
+    font-family:comic sans ms ;
+    position: absolute;
+    margin:auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+}
+.div1{
+    background-color: #ffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 2px; color: teal;
+    transition: 0.5s;   
+}
+
+.div1:hover{
+    transform:scale(0.9);
+    box-shadow: 0px 0px 5px 7px; color: teal;
+}
+.btn {
+padding: 5px 15px 5px 15px;
+border-radius: 20px 4px 20px 4px;
+border: none;
+color: white;
+}
+.btn1{
+background-color:#2f5597;
+}
+.btn2{
+background-color: #c55a11;
+}
+.btn3{
+background-color: red;
+}
+.home{
+    position: absolute;
+    padding-top: 100px ;
+    transition: 0.5s;   
+}
+.home:hover{
+  transform:scale(0.9);
+}
+
+

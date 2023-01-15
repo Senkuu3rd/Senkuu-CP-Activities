@@ -1,0 +1,41 @@
+body{
+  background:linear-gradient(to bottom,#30d5c8 50%,#ff7f50 90% );
+    color: #fff;
+    padding: 10px;
+}
+  
+
+#Author{
+  font-family: comic sans ms;
+  text-align: center;
+  position: center;
+  position: absolute;
+  margin: auto;
+  padding-left: 500px;
+}
+.Authorimg{
+  position: center;
+  background-color: #ffff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 2px; color: teal;
+}
+.btn {
+  padding: 5px 15px 5px 15px;
+  border-radius: 20px 4px 20px 4px;
+  border: none;
+  color: white;
+  position: left;
+  }
+  .btn1{
+  background-color:#2f5597;
+  }
+  .home{
+    position: absolute;
+    padding-top: 800px ;
+    padding-right: 50px;
+    transition: 0.5s;   
+}
+.home:hover{
+  transform:scale(0.9);
+}

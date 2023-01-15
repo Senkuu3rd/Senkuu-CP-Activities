@@ -1,0 +1,26 @@
+body{
+    background:linear-gradient(to bottom,#fff 50%, teal 90% );
+    color: #fff;
+    padding: 10px;
+    position: relative;
+}
+
+#nested09{
+    position: absolute;
+    font-family: comic sans ms;
+    text-align: center;
+    font-size: large;
+    color: black;
+
+}
+
+
+.home{
+    position: absolute;
+    padding-top: 100px ;
+    transition: 0.5s;   
+}
+.home:hover{
+  transform:scale(0.9);
+}
+
